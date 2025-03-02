@@ -98,8 +98,8 @@ typedef GPB_ENUM(ProtosWriteCharacteristicRequest_WriteType) {
    * of the field.
    **/
   ProtosWriteCharacteristicRequest_WriteType_GPBUnrecognizedEnumeratorValue = kGPBUnrecognizedEnumeratorValue,
-  ProtosWriteCharacteristicRequest_WriteType_WithResponse = 0,
-  ProtosWriteCharacteristicRequest_WriteType_WithoutResponse = 1,
+  ProtosWriteCharacteristicRequest_WriteType_WithResponse = 1,
+  ProtosWriteCharacteristicRequest_WriteType_WithoutResponse = 0,
 };
 
 GPBEnumDescriptor *ProtosWriteCharacteristicRequest_WriteType_EnumDescriptor(void);
